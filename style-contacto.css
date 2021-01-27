@@ -1,0 +1,116 @@
+* {
+    font-family: 'Arvo', serif;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    
+}
+
+.principal {
+    width: 1200px;
+    height: 100vh;
+}
+
+/* ESTILOS MENU NAVEGACION */
+
+.menu-navegacion {
+    background-color: rgba(59, 88, 118, .7);
+    width: 100%;
+}
+
+.menu-navegacion ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.menu-navegacion ul li {
+    display: inline-block;
+    padding: 13px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu-navegacion ul li:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+/* ESTILOS VIDEO CENTRAL */
+
+#vuelo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100vw;
+    min-height: 100%;
+    z-index: -10;
+    
+}
+
+
+/* ESTILOS PIE DE PAGINA */
+
+.pie-de-pagina {
+    
+    background-color: rgba(59, 88, 118, .7);
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* --ESTILOS DE PAGINA CONTACTO -- */
+
+.contenedor {
+    display: flex;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    height: 100vh;  
+    width: auto;
+    box-sizing: border-box;
+}
+
+.form-contacto2 {
+    background-color: rgba(59, 88, 118, .7);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    border-radius: 7px;
+
+}
+.texto-contacto {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    max-width: 100%;
+}
+
+.boton-form {
+    background-color:rgb(59, 88, 118);
+    color: white;
+}
+.boton-form:hover {
+    cursor: pointer;
+    background-color:rgb(82, 120, 161);
+}
+/* ------------------------------------- */

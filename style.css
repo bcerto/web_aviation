@@ -7,16 +7,24 @@
 }
 
 .principal {
-    width: 100%;
-    height: 800px;
+    width: 1400px;
+    height: 100vh;
 }
 
 /* ESTILOS MENU NAVEGACION */
 
 .menu-navegacion {
     background-color: rgba(59, 88, 118, .7);
-    width: 100%;
+    width: 1400px;
+    text-decoration: none;
+    list-style: none;
 
+}
+
+.menu-navegacion ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 
 .menu-navegacion ul li {
@@ -27,7 +35,8 @@
 }
 
 .menu-navegacion ul li:hover {
-    
+    transform: scale(1.02);
+    transition: transform 0.3s;
     color: rgb(150, 150, 150);
     cursor: pointer;
 }
@@ -47,10 +56,16 @@
 .contenido {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 1400px;
     height: 800px;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.item-flex:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .item-flex {
@@ -143,9 +158,59 @@
 .pie-de-pagina {
     
     background-color: rgba(59, 88, 118, .7);
-    width: 100%;
+    width: 1400px;
     height: 50px;
     color: white;
     text-align: center;
     line-height: 50px;
 }
+
+/* --ESTILOS DE PAGINA CONTACTO -- */
+
+.contenedor {
+    height: 100vh;  
+    width: 1400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contacto2 {
+    background-color: rgba(59, 88, 118, .7);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    border-radius: 7px;
+
+}
+.texto-contacto {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    max-width: 100%;
+}
+
+.boton-form {
+    background-color:rgb(59, 88, 118);
+    color: white;
+}
+.boton-form:hover {
+    cursor: pointer;
+    background-color:rgb(85, 124, 167);
+}
+/* ------------------------------------- */
